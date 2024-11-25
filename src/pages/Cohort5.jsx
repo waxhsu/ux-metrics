@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 // components
@@ -8,13 +8,15 @@ import GreenArticle from "../components/GreenArticle/GreenArticle";
 import Footer from "../components/Footer/Footer";
 import TestComponent from "../components/TestComponent/TestComponent";
 import SpiffyCheckout from "../components/SpiffyCheckout/SpiffyCheckout";
+import Navbar from "../components/Navbar/Navbar";
 
-export default function December() {
+export default function Cohort5() {
     return (
-        <div className="October">
+        <div id="Cohort5">
+            <Navbar />
             <Header />
             < GreenArticle >
-                <h1>Join December Cohort</h1>
+                <h1>Join February Cohort</h1>
             </GreenArticle >
             <TestComponent >
                 <div className="width-500">
@@ -24,7 +26,7 @@ export default function December() {
                 </div>
                 <div className="test-component-content-container">
                     <img src="./images/11.png" alt="Outcome Driven UX Metrics" />
-                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/decemberschedule" className="cohortSelector-button-link">December Schedule</Link></button>
+                    <button className="btn btn-shadow test-component-purchase button cohortSelector-button-link"> <Link to="/cohort5-schedule" className="cohortSelector-button-link">February Schedule</Link></button>
                 </div>
             </TestComponent >
             <TestComponent>
@@ -48,8 +50,10 @@ export default function December() {
             </TestComponent >
 
             <SpiffyCheckout>
-            <h2>Join the December UX Metrics Cohort</h2>
-                <spiffy-checkout url="https://centercentre.spiffy.co/checkout/ux-metrics-dec" ></spiffy-checkout>
+            <h2>Join the February UX Metrics Cohort</h2>
+                <spiffy-checkout 
+                    url="https://centercentre.spiffy.co/checkout/ux-metrics-cohort-5"
+                ></spiffy-checkout>
             </SpiffyCheckout>
 
 
