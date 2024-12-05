@@ -124,11 +124,11 @@ export default function CalendarV2() {
                                     )}
 
                                     <div id='optionalTitle' className='subTitle'>
-                                        <div className='optionTime'>{event.date1}, {formatToLocalTime(event.watchStart2, false, selectedTimezone)} - {formatToLocalTime(event.watchEnd2, true, selectedTimezone)}</div>
+                                        <div className='optionTime'>{event.date2}, {formatToLocalTime(event.watchStart2, false, selectedTimezone)} - {formatToLocalTime(event.watchEnd2, true, selectedTimezone)}</div>
                                         <div className='optionTitle'>Watch the Lecture*</div>
                                     </div>
                                     <div id='liveTopicTitle' className='subTitle'>
-                                        <div className='optionTime'>{event.date1}, {formatToLocalTime(event.coachStart2, false, selectedTimezone)} - {formatToLocalTime(event.coachEnd2, true, selectedTimezone)}</div>
+                                        <div className='optionTime'>{event.date2}, {formatToLocalTime(event.coachStart2, false, selectedTimezone)} - {formatToLocalTime(event.coachEnd2, true, selectedTimezone)}</div>
                                         <div className='optionTitle'>Live Coaching with Jared</div>
                                     </div>
                                     {/* END Even Numbered Topic */}
