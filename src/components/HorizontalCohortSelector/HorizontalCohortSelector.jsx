@@ -6,6 +6,7 @@ import { COHORT2_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT3_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT4_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT5_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
+import { COHORT6_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 
 export default function HorizontalCohortSelector() {
     // State and hooks to change the h1 on resize
@@ -36,12 +37,12 @@ export default function HorizontalCohortSelector() {
                     <div className="horizontal-cohort-1">
                         <div className="horizontal-cohort-paragraphs">
                             <p><b>
-                            {COHORT3_DATE_RANGE[0].start} - {COHORT3_DATE_RANGE[0].end}
+                            {COHORT4_DATE_RANGE[0].start} - {COHORT4_DATE_RANGE[0].end}
                             </b></p>
-                            <Link to="/cohort3-schedule">See Schedule</Link>
+                            <Link to="/cohort4-schedule">See Schedule</Link>
                         </div>
                         <button className="btn-shadow">
-                            <Link to="/cohort3" className="cohortSelector-button-link">Join Cohort</Link>
+                            <Link to="/cohort4" className="cohortSelector-button-link">Join Cohort</Link>
                         </button>
                     </div>
                     {/* FIRST COHORT END */}
@@ -51,12 +52,12 @@ export default function HorizontalCohortSelector() {
                     <div className="horizontal-cohort-1">
                         <div className="horizontal-cohort-paragraphs">
                             <p><b>
-                            {COHORT4_DATE_RANGE[0].start} - {COHORT4_DATE_RANGE[0].end}
+                            {COHORT5_DATE_RANGE[0].start} - {COHORT5_DATE_RANGE[0].end}
                             </b></p>
-                            <Link to="/cohort4-schedule">See Schedule</Link>
+                            <Link to="/cohort5-schedule">See Schedule</Link>
                         </div>
                         <button className="btn-shadow">
-                            <Link to="/cohort4" className="cohortSelector-button-link">Join Cohort</Link>
+                            <Link to="/cohort5" className="cohortSelector-button-link">Join Cohort</Link>
                         </button>
                     </div>
                     {/* SECOND COHORT END */}
@@ -66,12 +67,12 @@ export default function HorizontalCohortSelector() {
                     <div className="horizontal-cohort-1">
                         <div className="horizontal-cohort-paragraphs">
                             <p><b>
-                            {COHORT5_DATE_RANGE[0].start} - {COHORT5_DATE_RANGE[0].end}
+                            {COHORT6_DATE_RANGE[0].start} - {COHORT6_DATE_RANGE[0].end}
                             </b></p>
-                            <Link to="/cohort5-schedule">See Schedule</Link>
+                            <Link to="/cohort6-schedule">See Schedule</Link>
                         </div>
                         <button className="btn-shadow">
-                            <Link to="/cohort5" className="cohortSelector-button-link">Join Cohort</Link>
+                            <Link to="/cohort6" className="cohortSelector-button-link">Join Cohort</Link>
                         </button>
                     </div>
                     {/* THIRD COHORT END */}

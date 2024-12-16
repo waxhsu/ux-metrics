@@ -6,6 +6,7 @@ import { COHORT2_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT3_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT4_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 import { COHORT5_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
+import { COHORT6_DATE_RANGE } from "../CalendarV2/CalendarDataV2"
 
 export default function VerticalCohortSelector() {
     return (
@@ -18,10 +19,10 @@ export default function VerticalCohortSelector() {
                 {/* FIRST COHORT START */}
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
-                        <p><b>{COHORT3_DATE_RANGE[0].start} - {COHORT3_DATE_RANGE[0].end}</b></p>
-                        <Link to="/cohort3-schedule">See Schedule</Link>
+                        <p><b>{COHORT4_DATE_RANGE[0].start} - {COHORT4_DATE_RANGE[0].end}</b></p>
+                        <Link to="/cohort4-schedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow">  <Link to="/cohort3" className="cohortSelector-button-link">Join Cohort</Link></button>
+                    <button className="btn-shadow">  <Link to="/cohort4" className="cohortSelector-button-link">Join Cohort</Link></button>
                 </div>
                 {/* FIRST COHORT END */}
 
@@ -29,10 +30,10 @@ export default function VerticalCohortSelector() {
                 {/* SECOND COHORT START */}
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
-                    <p><b>{COHORT4_DATE_RANGE[0].start} - {COHORT4_DATE_RANGE[0].end}</b></p>
-                        <Link to="/cohort4-schedule">See Schedule</Link>
+                    <p><b>{COHORT5_DATE_RANGE[0].start} - {COHORT5_DATE_RANGE[0].end}</b></p>
+                        <Link to="/cohort5-schedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow">  <Link to="/cohort4" className="cohortSelector-button-link">Join Cohort</Link></button>
+                    <button className="btn-shadow">  <Link to="/cohort5" className="cohortSelector-button-link">Join Cohort</Link></button>
                 </div>
                 {/* SECOND COHORT END */}
 
@@ -40,10 +41,10 @@ export default function VerticalCohortSelector() {
                 {/* THIRD COHORT START */}
                 <div className="cohort-1">
                     <div className="cohort-paragraphs">
-                    <p><b>{COHORT5_DATE_RANGE[0].start} - {COHORT5_DATE_RANGE[0].end}</b></p>
-                        <Link to="/cohort5-schedule">See Schedule</Link>
+                    <p><b>{COHORT6_DATE_RANGE[0].start} - {COHORT6_DATE_RANGE[0].end}</b></p>
+                        <Link to="/cohort6-schedule">See Schedule</Link>
                     </div>
-                    <button className="btn-shadow">  <Link to="/cohort5" className="cohortSelector-button-link">Join Cohort</Link></button>
+                    <button className="btn-shadow">  <Link to="/cohort6" className="cohortSelector-button-link">Join Cohort</Link></button>
                 </div>
                 {/* THIRD COHORT END */}
 
