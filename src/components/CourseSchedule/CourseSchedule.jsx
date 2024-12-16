@@ -1,7 +1,7 @@
 import React from "react";
 import './CourseSchedule.css'
 // UPDATE THIS
-import Calendar from '../CalendarV2/Cohort3Calendar';
+import Calendar from '../CalendarV2/Cohort4Calendar';
 // UPDATE THIS
 
 export default function CourseSchedule() {
