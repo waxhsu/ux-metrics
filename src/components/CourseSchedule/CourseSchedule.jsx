@@ -19,7 +19,7 @@ export default function CourseSchedule() {
                 <p>We keep the cohorts small, so you’ll have plenty of time to be coached on how you’ll implement your Outcome-driven UX metrics.
                 </p>
                 <p>We know that schedules are tough, so we record every coaching session with Jared. If you miss a session, or you just want to review what you discussed, you’ll have access to the recordings for 6 months after the course ends. (You can also watch the recordings from other cohorts, to hear how they worked through their biggest challenges.)</p>
-                <h1>Course Schedule</h1>
+                
                 <Calendar />
 
             </section>
