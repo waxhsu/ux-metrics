@@ -30,9 +30,13 @@ export default function Navbar() {
                         <Link to="/outcomes">Why UX Outcomes?</Link>
                         <Link to="/teams">Team Pricing</Link>
 
-                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
+                        
+                        {/* UPDATE THIS */}
+                        {/* UPDATE THIS */}
                         <Link to="/cohort4">Join Next Cohort</Link>
-                        {/* UPDATE THE MONTH AFTER EACH COHORT */}
+                        {/* UPDATE THIS */}
+                        {/* UPDATE THIS */}
+                        
                     </div>
                 </nav>
             </div>
