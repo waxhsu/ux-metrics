@@ -67,6 +67,17 @@ function App() {
                     element={<Cohort6Schedule />} 
                 />
 
+                {/* UPDATE THIS */}
+                {/* UPDATE THIS */}
+                {/* <Route path="/cohort6" element={<Cohort6 />} />
+                <Route 
+                    path="/cohort6-schedule" 
+                    element={<Cohort6Schedule />} 
+                /> */}
+                {/* UPDATE THIS */}
+                {/* UPDATE THIS */}
+
+
             </Routes>
         </Router>
     );
