@@ -75,6 +75,8 @@ export const fetchCohort6 = async () => {
     const response = await axios.get(url, { headers });
     return response.data.records.map(record => ({
       week: record.fields.Week,
+      start: record.fields.CohortOutput1,
+      end: record.fields.CohortOutput2,
 
       name1: record.fields.Name1,
       rich1: record.fields.RichText1,
@@ -133,6 +135,8 @@ export const fetchCohort5 = async () => {
     const response = await axios.get(url, { headers });
     return response.data.records.map(record => ({
       week: record.fields.Week,
+      start: record.fields.CohortOutput1,
+      end: record.fields.CohortOutput2,
 
       name1: record.fields.Name1,
       rich1: record.fields.RichText1,
@@ -190,6 +194,8 @@ export const fetchCohort4 = async () => {
     const response = await axios.get(url, { headers });
     return response.data.records.map(record => ({
       week: record.fields.Week,
+      start: record.fields.CohortOutput1,
+      end: record.fields.CohortOutput2,
 
       name1: record.fields.Name1,
       rich1: record.fields.RichText1,
