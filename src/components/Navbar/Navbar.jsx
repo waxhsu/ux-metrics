@@ -13,10 +13,10 @@ export default function Navbar() {
         <section className="header">
             <div className="new-nav-test">
                 <nav className="header-nav">
-                    <Link to="/">
+                <a href='https://www.centercentre.com'>
 
                     <img className="header-logo" src="/images/Center_Centre_Logo.png" alt="center centre logo" />
-                    </Link>
+                    </a>
 
                     <div className="hamburger" onClick={toggleMenu}>
 
