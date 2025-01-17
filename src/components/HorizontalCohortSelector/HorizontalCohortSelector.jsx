@@ -52,7 +52,7 @@ export default function HorizontalCohortSelector() {
                 <div className="cohort-1-container">
 
                     {/* FIRST COHORT START */}
-                    <div className="horizontal-cohort-1">
+                    {/* <div className="horizontal-cohort-1">
                         <div className="horizontal-cohort-paragraphs">
                         <p><b>{events1[0]?.start} – {events1[3]?.end}</b></p>
                             <Link to="/cohort4-schedule">See Schedule</Link>
@@ -60,7 +60,7 @@ export default function HorizontalCohortSelector() {
                         <button className="btn-shadow">
                             <Link to="/cohort4" className="cohortSelector-button-link">Join Cohort</Link>
                         </button>
-                    </div>
+                    </div> */}
                     {/* FIRST COHORT END */}
 
 

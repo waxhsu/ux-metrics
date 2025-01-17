@@ -39,13 +39,13 @@ export default function VerticalCohortSelector() {
             <div>
 
                 {/* FIRST COHORT START */}
-                <div className="cohort-1">
+                {/* <div className="cohort-1">
                     <div className="cohort-paragraphs">
                     <p><b>{events1[0]?.start} – {events1[3]?.end}</b></p>
                         <Link to="/cohort4-schedule">See Schedule</Link>
                     </div>
                     <button className="btn-shadow">  <Link to="/cohort4" className="cohortSelector-button-link">Join Cohort</Link></button>
-                </div>
+                </div> */}
                 {/* FIRST COHORT END */}
 
 

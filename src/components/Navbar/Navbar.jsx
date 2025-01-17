@@ -36,7 +36,7 @@ export default function Navbar() {
                         
                         {/* UPDATE THIS */}
                         {/* UPDATE THIS */}
-                        <Link to="/cohort4">Join Next Cohort</Link>
+                        <Link to="/cohort5">Join Next Cohort</Link>
                         {/* UPDATE THIS */}
                         {/* UPDATE THIS */}
                         
